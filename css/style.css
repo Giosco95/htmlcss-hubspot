@@ -1,0 +1,508 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+font-family: 'Varela Round', sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  clear:both;
+  display: table;
+
+}
+
+.topnav{
+  background-color: #f5f8fa;
+  border-bottom:  1px solid #cbd6e2;
+  position: static;
+
+
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav{
+  height: 80px;
+  width: 100%;
+  background-color: #f5f8fa;
+}
+
+.navsx li{
+  display: inline-block;
+  list-style-type: none;
+  float: left;
+  line-height: 80px;
+  padding-right: 20px;
+}
+
+.navdx {
+  display: inline-block;
+  float: right;
+  line-height: 80px;
+
+}
+
+.fa-search{
+  color: #00a4bd;
+}
+
+.navdx button{
+  padding: 12px 10px;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.btn1{
+  border: 1px solid #ff7a59;
+  background-color: white;
+  color: orange;
+  font-size: 15px;
+}
+
+.btn2{
+  border: 1px solid #ff7a59;
+  background-color: #ff7a59;
+  color: white;
+  font-size: 15px;
+}
+
+.menu{
+  background-color: #ffffff;
+
+}
+
+menu{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+
+}
+
+.logo{
+  line-height: 80px;
+
+
+}
+
+.logo img{
+  float: left;
+  margin-top: 30px;
+
+
+}
+
+.menulist{
+  line-height: 80px;
+}
+
+.menuctr{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.menulist ul{
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+
+}
+
+.menulist ul li{
+  float: left;
+  padding: 10px;
+  color: #33475b;
+
+
+}
+
+.banner{
+  background-color: #fff3ee;
+  background-image: url("https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom: 4px solid #33475b;
+  right: 0;
+  bottom: 0;
+  background-position: bottom;
+
+}
+
+.ctrbanner{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jumbotron{
+  height: 800px;
+  width: 100%;
+  /*background-color: #fff3ee;*/
+  position: relative;
+
+}
+
+.jbtsx{
+  height: 100%;
+  width:50%;
+  position: absolute;
+}
+
+.jbtsx h1{
+  font-size: 50px;
+  color: #33475b;
+  margin-top: 50px;
+}
+
+.jbtsx p{
+  font-size: 20px;
+  color: #33475b;
+  margin: 30px 0;
+}
+
+.jbtsx button{
+  font-size: 25px;
+  color: white;
+  background-color: #ff7a59;
+  padding: 25px 20px;
+  border-radius: 4px;
+}
+
+.power{
+  background-color: #f5f8fa;
+}
+
+.ctrpower{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenutopower{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.contenutopower img{
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+.contenutopower h3{
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.contenutopower p{
+  text-align: center;
+  font-size: 15px;
+  position: absolute;
+  top:60%;
+  transform: translatey(-60%);
+  margin: 30px auto;
+}
+
+.ctrfreehubspot{
+  /*width: 80%;*/
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 3px;
+
+}
+
+.contenutohubspot{
+  width: 100%;
+  height: 300px;
+}
+
+.contenutohubspot .sx{
+  width: 40%;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+.contenutohubspot .sx img{
+  left:50%;
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%);
+  margin-top: 50px;
+
+}
+
+.contenutohubspot .sx button{
+ left:50%;
+ top: 60%;
+ position: absolute;
+ transform: translate(-50%, -60%);
+ background-color: #ff7a59;
+ color: white;
+ font-size: 15px;
+ padding: 15px 30px;
+ border-radius: 3px;
+ margin-top: 80px;
+}
+
+.contenutohubspot .dx{
+  width: 60%;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+.contenutohubspot .dx h3{
+  font-size: 25px;
+  margin: 50px 0;
+
+}
+
+.contenutohubspot .dx p{
+  margin: 40px 0;
+}
+
+.contenutohubspot .dx h5{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contenutohubspot .dx h5 hr{
+  display: inline-block;
+  width: 400px;
+  margin: 5px 50px;
+}
+
+.listpop ul li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 50px;
+
+}
+
+.listpop ul li i{
+  color: #ff7a59;
+  margin-right: 15px;
+}
+
+.cards{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenutocards{
+  width: 100%;
+  height: 800px;
+  /*border: 1px solid black;*/
+
+}
+
+.card1, .card2, .card3{
+  width: 30%;
+  float:left;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+
+}
+
+.card2{
+  margin-left:5%;
+  margin-right: 5%;
+}
+
+.contenutocard{
+  text-align: center;
+
+}
+
+.contenutocard img{
+  height: 150px;
+  width: auto;
+  margin: 20px auto;
+}
+
+
+
+.contenutocard h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contenutocard p{
+  font-size: 15px;
+  margin-bottom: 60px;
+  padding: 0 5px;
+}
+
+.contenutocard hr{
+  width: 300px;
+  margin: 20px auto;
+}
+
+.contenutocard h5{
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.listcard .ulcard{
+  list-style-type: none;
+
+}
+.ulcard li{
+  text-align: left;
+  margin-left: 40px;
+}
+
+.ulcard li i{
+  color: #ff7a59;
+
+}
+
+.contenutocard button{
+  font-size: 15px;
+  background-color: #ff7a59;
+  padding: 20px 35px;
+  margin-top: 30px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contenutocard2{
+  text-align: center;
+
+}
+
+.contenutocard2 img{
+  height: 150px;
+  width: auto;
+
+  margin: 20px auto;
+}
+
+
+
+.contenutocard2 h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contenutocard2 p{
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.contenutocard2 hr{
+  width: 300px;
+  margin: 20px auto;
+}
+
+.contenutocard2 h5{
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.listcard .ulcard{
+  list-style-type: none;
+
+}
+.ulcard li{
+  text-align: left;
+  margin-left: 40px;
+}
+
+.ulcard li i{
+  color: #ff7a59;
+
+}
+
+.contenutocard2 button{
+  font-size: 15px;
+  background-color: #ff7a59;
+  padding: 20px 35px;
+  margin-top: 30px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contenutocard3{
+  text-align: center;
+
+}
+
+.contenutocard3 img{
+  height: 150px;
+  width: auto;
+
+  margin: 20px auto;
+}
+
+
+
+.contenutocard3 h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contenutocard3 p{
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.contenutocard3 hr{
+  width: 300px;
+  margin: 20px auto;
+}
+
+.contenutocard3 h5{
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.listcard .ulcard{
+  list-style-type: none;
+
+}
+.ulcard li{
+  text-align: left;
+  margin-left: 40px;
+}
+
+.ulcard li i{
+  color: #ff7a59;
+
+}
+
+.contenutocard3 button{
+  font-size: 15px;
+  background-color: #ff7a59;
+  padding: 20px 35px;
+  margin-top: 30px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 20px;
+}

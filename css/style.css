@@ -5,8 +5,8 @@
 }
 
 body{
+  font-family: 'Montserrat', sans-serif;
 
-font-family: 'Varela Round', sans-serif;
 }
 
 .clearfix::after{
@@ -19,7 +19,9 @@ font-family: 'Varela Round', sans-serif;
 .topnav{
   background-color: #f5f8fa;
   border-bottom:  1px solid #cbd6e2;
-  position: static;
+
+
+
 
 
 }
@@ -505,4 +507,420 @@ menu{
   border-radius: 4px;
   color: white;
   margin-bottom: 20px;
+}
+
+.bannerblu{
+  /*background-color: #00b4ae;*/
+  /*background-image: linear-gradient(to bottom right, #00b4ae, blue );*/
+  background-image: -webkit-linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.ctrbannerblu{
+  height: 650px;
+  width: 80%;
+  max-width: 1200px;
+  /*border: 1px solid black;*/
+  margin: 0 auto;
+
+}
+
+.sez1{
+  text-align: center;
+  }
+
+.sez1 h5{
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.sez1 p{
+  color:white;
+  font-size: 14px;
+  margin: 0 40px;
+}
+
+.griglia1{
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+  /*border: 1px solid black;*/
+}
+
+.square1, .square2, .square3, .square4{
+  width: 25%;
+  height: 200px;
+  float: left;
+  /*border: 1px solid black;*/
+
+}
+.square1{
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.square1 .logo {
+  display: inline-block;
+
+}
+
+.square1 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square1 p{
+  color: white;
+
+}
+
+.fa-plus{
+  font-size: 10px;
+}
+
+.square2{
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.square2 .logo {
+  display: inline-block;
+
+}
+
+.square2 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square2 p{
+  color: white;
+
+}
+
+.square3{
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.square3 .logo {
+  display: inline-block;
+
+}
+
+.square3 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square3 p{
+  color: white;
+
+}
+
+.square4{
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+
+.square4 .logo {
+  display: inline-block;
+
+}
+
+.square4 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square4 p{
+  color: white;
+
+}
+
+.griglia2{
+  width: 100%;
+  height: 200px;
+  /*border: 1px solid black;*/
+}
+
+.square5, .square6, .square7, .square8{
+  width: 25%;
+  height: 200px;
+  float: left;
+  /*border: 1px solid black;*/
+
+}
+
+.square5{
+  text-align: center;
+  position: relative;
+  border-right: 1px solid white;
+}
+
+.square5 .logo {
+  display: inline-block;
+
+}
+
+.square5 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square5 p{
+  color: white;
+
+}
+
+.square6{
+  text-align: center;
+  position: relative;
+  border-right: 1px solid white;
+
+}
+
+.square6 .logo {
+  display: inline-block;
+
+}
+
+.square6 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square6 p{
+  color: white;
+
+}
+
+.square7{
+  text-align: center;
+  position: relative;
+  border-right: 1px solid white;
+
+}
+
+.square7 .logo {
+  display: inline-block;
+
+}
+
+.square7 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square7 p{
+  color: white;
+
+}
+
+.square8{
+  text-align: center;
+  position: relative;
+}
+
+.square8 .logo {
+  display: inline-block;
+
+}
+
+.square8 div h2{
+  font-size: 30px;
+  color: white;
+  margin: 10px auto;
+}
+
+.square8 p{
+  color: white;
+
+}
+
+.ultima_scatola{
+  background-color: white;
+
+
+}
+
+.box_1{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.box_sx{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 40%;
+  height: 400px;
+  text-align: center;
+  position: relative;
+
+}
+
+.numero{
+  position: absolute;
+  top: 30%;
+  color: #33475b;
+}
+
+.numero h1{
+  font-size: 50px;
+}
+
+.numero p{
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 30px;
+}
+
+.box_dx{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 60%;
+  height: 350px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.atlassian{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.doordash{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.crowd{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.purple{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.atlassian .atla{
+  height: 20px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.atlassian .sub{
+  height: 50px;
+  width: 150px;
+}
+.doordash .door{
+  height: 20px;
+  width: 150px;
+  margin-bottom: 55px;
+  margin-top: 100px;
+}
+.doordash .wist{
+  height: 25px;
+  width: 150px;
+}
+.crowd .g2{
+  height: 30px;
+  width: 135px;
+  margin-bottom: 32px;
+  margin-top: 97px;
+}
+.crowd .classp{
+  height: 60px;
+  width: 150px;
+}
+.purple .pur{
+  height: 30px;
+  width: 100px;
+  margin-bottom: 50px;
+  margin-top: 97px;
+}
+.purple .vmw{
+  height: 25px;
+  width: 110px;
+}
+
+
+.box_2{
+  width: 80%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+
+}
+.box_sx2{
+  width: 50%;
+  float: left;
+  height: 350px;
+  position: relative;
+
+}
+.box_sx2 h2{
+  color: #33475b;
+  font-size: 35px;
+  margin-bottom: 30px;
+
+}
+.box_sx2 p{
+  color: #33475b;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.box_sx2 button{
+  font-size: 15px;
+  background-color: #ff7a59;
+  padding: 20px 35px;
+  margin-top: 30px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.box_dx2{
+  width: 50%;
+  float: left;
+  height: 350px;
+  position: relative;
+  text-align: right;
+}
+
+.box_dx2 img{
+  width: 300px;
 }

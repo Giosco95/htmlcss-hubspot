@@ -887,7 +887,7 @@ menu{
 .box_sx2{
   width: 50%;
   float: left;
-  height: 350px;
+  height: 400px;
   position: relative;
 
 }
@@ -916,11 +916,137 @@ menu{
 .box_dx2{
   width: 50%;
   float: left;
-  height: 350px;
+  height: 400px;
   position: relative;
   text-align: right;
 }
 
 .box_dx2 img{
   width: 300px;
+}
+
+footer{
+  background-color: #33475b;
+
+}
+
+.ctrfoot{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+.ctrfoot .box1{
+  float: left;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  /*border: 1px solid black;*/
+}
+
+.increase{
+  height: 100%;
+  width: 25%;
+  /*border: 1px solid black;*/
+  float: left;
+}
+
+.increase h3, .inc{
+  color: white;
+}
+
+.increase .inc li{
+  list-style-type: none;
+  margin: 20px 0;
+  font-size: 10px;
+
+}
+
+.increase h3{
+  margin: 30px 0;
+  font-size: 15px;
+}
+
+.increase .inc li button{
+  background-color: white;
+  color: #33475b;
+  padding: 15px 15px;
+  border-radius: 3px;
+  font-size: 15px;
+
+}
+
+.increase .inc li ul li{
+  list-style-type: none;
+  float: left;
+}
+
+.increase .inc li ul li i{
+  font-size: 20px;
+  float: left;
+  padding: 10px;
+
+
+}
+
+.ctrfoot .box2{
+  float: left;
+  width: 100%;
+  height: 40px;
+  position: relative;
+
+}
+
+.listabox2{
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.listabox2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  font-size: 10px;
+
+}
+
+.ctrfoot .box3{
+  float: left;
+  width: 50%;
+  height: 100px;
+
+}
+
+.ctrfoot .box3 p{
+  color: white;
+  font-size: 10px;
+
+}
+
+.ctrfoot .box3 .ultimologo{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.ctrfoot .box4{
+  float: left;
+  width: 50%;
+  height: 100px;
+  text-align: right;
+}
+
+.ctrfoot .box4 ul{
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.ctrfoot .box4 ul li{
+  display: inline;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+
 }
